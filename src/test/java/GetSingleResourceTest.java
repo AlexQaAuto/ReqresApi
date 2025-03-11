@@ -10,7 +10,7 @@ public class GetSingleResourceTest {
     private final ObjectMapper objectMapper = new ObjectMapper();
 
     @Test
-    public void testGetListResourceTest() throws Exception {
+    public void testGetSingleResourceTest() throws Exception {
         //Отправка GET-запроса
         Response response = RestAssured
                 .given()
