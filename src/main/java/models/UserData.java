@@ -2,10 +2,11 @@ package models;
 
 public class UserData {
     private int id;
-    private String email;
-    private String first_name;
-    private String last_name;
-    private String avatar;
+    private String name;
+    private int year;
+    private String color;
+    private String pantone_value;
+
 
 
     //Геттеры и сеттеры
@@ -17,35 +18,38 @@ public class UserData {
         this.id = id;
     }
 
-    public String getEmail() {
-        return email;
+    public String getName() {
+        return name;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getFirst_name() {
-        return first_name;
+    public int getYear() {
+        return year;
     }
 
-    public void setFirst_name(String first_name) {
-        this.first_name = first_name;
+    public void setYear(int year) {
+        this.year = year;
     }
 
-    public String getLast_name() {
-        return last_name;
+    public String getColor() {
+        return color;
     }
 
-    public void setLast_name(String last_name) {
-        this.last_name = last_name;
+    public void setColor(String color) {
+        this.color = color;
     }
 
-    public String getAvatar() {
-        return avatar;
+    public String getPantone_value() {
+        return pantone_value;
     }
 
-    public void setAvatar(String avatar) {
-        this.avatar = avatar;
+    public void setPantone_value(String pantone_value) {
+        this.pantone_value = pantone_value;
     }
-}
+
+
+    }
+
